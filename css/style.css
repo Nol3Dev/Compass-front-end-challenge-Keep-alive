@@ -60,6 +60,24 @@
     border-radius: 50px;
 }
 
+@keyframes out {
+    from {
+        left: -40px;
+    }
+    to {
+        left: 15px;
+    }
+
+}
+
+.user_icon-active, .pass_icon-active{
+    position: relative;
+    bottom: 10px;
+    left: -40px;
+    animation: in 1s;
+}
+
+
 .input_login-user::placeholder {
     position: relative;
     left: 20px;
@@ -69,6 +87,31 @@
     position: relative;
     left: 18px;
     top: 4px;
+}
+
+@keyframes in {
+    from {
+        left: 15px;
+    }
+    to {
+        left: -40px;
+    }
+}
+
+.form__error{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form__error__text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.28px;
+    text-align: center;
+    width: 283px;
+    color: #E9B425;
 }
 
 .user_icon-error {

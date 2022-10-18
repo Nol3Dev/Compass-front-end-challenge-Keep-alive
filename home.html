@@ -14,7 +14,7 @@
 <body>
     <header onboard="clock">
         <section class="home_header">
-            <img src="./img/LogoCompasso 1.svg" alt="Compass Logo">
+            <img class="compass_logo1" src="./img/LogoCompasso 1.svg" alt="Compass Logo">
             <div class="time">
                 <h1 class="time__hour"></h1>
                 <p class="time__date"></p>
@@ -43,13 +43,27 @@
         </section>
     </main>
     <footer>
-        <section class="container_footer">
-            <div class="instructions">
-                <h2 class="instructions_paragraph">Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</h2>
-                <hr>
-                <h2 class="counter_paragraph">Application refresh in</h2>
+        <p class="footer__paragraph">Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</p>
+        <div class="footer__division"></div>
+        <div class="footer__counter">
+            <p class="counter__paragraph">Application refresh in</p>
+            <div class="counter">
+                <h4 class="counter__time"></h4>
+                <p class="counter__seconds">seconds</p>
             </div>
-        </section>
+        </div>
+        <div class="logout">
+            <a href="https://noticias.uol.com.br" class="logout__link">
+                <div class="navegation__div">
+                    <h4 class="navegation__text">Continuar Navegando</h4>
+                </div>
+            </a>
+            <button class="logout__link">
+                <div class="logout__div">
+                    <h4 class="logout__text">Logout</h4>
+                </div>
+            </button>
+        </div>
     </footer>
 
     <script src="./js/clock.js"></script>
