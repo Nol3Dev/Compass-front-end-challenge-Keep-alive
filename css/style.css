@@ -71,6 +71,12 @@
     top: 4px;
 }
 
+.user_icon-error {
+    position: relative;
+    left: -50px;
+    top: 4px;
+}
+
 .input_login-pass {
     width: 379px;
     height: 60px;
@@ -88,6 +94,12 @@
 .pass_icon {
     position: relative;
     left: 18px;
+    top: 6px;
+}
+
+.pass_icon-error {
+    position: relative;
+    left: -50px;
     top: 6px;
 }
 
