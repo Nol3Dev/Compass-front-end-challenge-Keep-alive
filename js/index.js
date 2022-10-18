@@ -25,7 +25,7 @@ button.addEventListener("click", (event) =>{
         inputUsername.setAttribute("style", "border: 1px solid #FFFFFF");
         inputPassword.setAttribute("style", "border: 1px solid #FFFFFF");
         error.setAttribute("style", "display: none;");
-        document.location.pathname = "C:/Users/novom/Desktop/Compass-front-end-challenge-Keepalive/home.html";
+        document.location.pathname = "./home.html";
     } else {
         inputUsername.setAttribute("style", "border: 1px solid #E9B425");
         inputPassword.setAttribute("style", "border: 1px solid #E9B425");
