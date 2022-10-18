@@ -2,44 +2,89 @@
     font-family: 'Poppins', sans-serif;
 }
 
+header {
+    height: 20vh;
+}
+
 .home_header {
     display: flex;
     justify-content: space-between;
 }
 
-#clock {
-    display: flex;   
+.time {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
     flex-direction: column;
-    margin-left: 125px;
-    padding-top: 20px;
 }
 
-.hour__ {
-    text-align: center;
-    color: #3B3E45;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 20px;
+.time__hour {
+    font-weight: 700;
+    font-size: 144px;
+    color: #222222
 }
 
-.date__ {
-    color: #3B3E45;
-    margin: 15px 0 0 0;
+.time__date {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 14px;
+    color: #222222
+}
+
+.geolocator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-right: 41px;
+}
+
+.geolocator__localization {
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222
+}
+
+.geolocator__temperature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperature__icon {
+    width: 34px;
+    height: 34px;
+}
+
+.temperature__measurement {
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222
+}
+
+.compass_ball img {
+    margin-top: 164px;
+}
+
+main {
+    height: 71vh;
 }
 
 .container_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    width: 100vw;
+    background-image: url('../img/bola-LogoCompasso\ 1.svg');
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .description_main {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: 0 auto;
+    padding-right: 7.4%;
 }
 
 .description_main h4 {
@@ -62,3 +107,37 @@
     line-height: 81px;
 }
 
+footer {
+    height: 100px;
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    height: 9vh;
+    display: flex;
+}
+
+.container_footer {
+    display: flex;
+}
+
+.instructions {
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.instructions_paragraph {
+    font-size: 12px;
+    width: 541px;
+    height: 58px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-left: 354px;
+}
+
+.counter_paragraph {
+    font-size: 14px;
+    text-align: right;
+    width: 109px;
+    height: 49px;
+    color: #FFFFFF;
+}

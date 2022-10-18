@@ -15,22 +15,21 @@
     <header onboard="clock">
         <section class="home_header">
             <img src="./img/LogoCompasso 1.svg" alt="Compass Logo">
-            <div id="clock">
-                <div class="hour__">
-                    <span id="hour"></span>:<span id="minute"></span>
-                </div>
-                    
-                <div class="date__">
-                    <span id="date"></span>
+            <div class="time">
+                <h1 class="time__hour"></h1>
+                <p class="time__date"></p>
+            </div>
+            <div class="geolocator">
+                <h3 class="geolocator__localization">Detectando localização...</h3>
+                <div class="geolocator__temperature">
+                    <img src="" alt="Current temperature icon" class="temperature__icon">
+                    <h2 class="temperature__measurement"></h2>
                 </div>
             </div>
         </section>        
     </header>
     <main>
         <section class="container_main">
-            <div class="compass_ball">
-                <img src="./img/bola-LogoCompasso 1.svg" alt="">            
-            </div>
             <div class="description_main">
                 <h4>Our mission is</h4>
                 <p class="translation_paragraph">Nossa missão é</p>
@@ -44,9 +43,13 @@
         </section>
     </main>
     <footer>
-        <div>
-            
-        </div>
+        <section class="container_footer">
+            <div class="instructions">
+                <h2 class="instructions_paragraph">Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</h2>
+                <hr>
+                <h2 class="counter_paragraph">Application refresh in</h2>
+            </div>
+        </section>
     </footer>
 
     <script src="./js/clock.js"></script>
