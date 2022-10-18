@@ -68,6 +68,7 @@
 .user_icon {
     position: relative;
     left: 18px;
+    top: 4px;
 }
 
 .input_login-pass {
@@ -87,6 +88,7 @@
 .pass_icon {
     position: relative;
     left: 18px;
+    top: 6px;
 }
 
 .button_login {

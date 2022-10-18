@@ -1,0 +1,46 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.home_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#clock {
+    display: flex;   
+    flex-direction: column;
+    margin-left: 125px;
+    padding-top: 20px;
+}
+
+.hour__ {
+    text-align: center;
+    color: #3B3E45;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.date__ {
+    color: #3B3E45;
+    margin: 15px 0 0 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.container_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description_main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.translation_paragraph {
+    margin-bottom: 3px;
+}
